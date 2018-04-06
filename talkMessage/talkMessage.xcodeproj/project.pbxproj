@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0994B8204F98ED002159E8 /* TopicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE0994B5204F98EC002159E8 /* TopicTableViewCell.xib */; };
+		DE0994B9204F98ED002159E8 /* TopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0994B7204F98EC002159E8 /* TopicTableViewCell.m */; };
+		DE0994BF204F9A0E002159E8 /* USBaseListTopicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE0994BB204F9A0E002159E8 /* USBaseListTopicViewController.xib */; };
+		DE0994C0204F9A0E002159E8 /* USBaseListTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0994BC204F9A0E002159E8 /* USBaseListTopicViewController.m */; };
+		DE0994C1204F9A0E002159E8 /* USListTopicFullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0994BD204F9A0E002159E8 /* USListTopicFullViewController.m */; };
+		DE0994C3204FC695002159E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0994C2204FC695002159E8 /* Assets.xcassets */; };
+		DEC8392F204E7AC900D67B4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC8392E204E7AC900D67B4F /* AppDelegate.m */; };
+		DEC83932204E7AC900D67B4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC83931204E7AC900D67B4F /* ViewController.m */; };
+		DEC83935204E7AC900D67B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC83933204E7AC900D67B4F /* Main.storyboard */; };
+		DEC83938204E7AC900D67B4F /* talkMessage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEC83936204E7AC900D67B4F /* talkMessage.xcdatamodeld */; };
+		DEC8393D204E7AC900D67B4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC8393B204E7AC900D67B4F /* LaunchScreen.storyboard */; };
+		DEC83940204E7AC900D67B4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC8393F204E7AC900D67B4F /* main.m */; };
+		DEC8394A204E7AC900D67B4F /* talkMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC83949204E7AC900D67B4F /* talkMessageTests.m */; };
+		DEC83955204E7AC900D67B4F /* talkMessageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC83954204E7AC900D67B4F /* talkMessageUITests.m */; };
+		DEC83971204E815500D67B4F /* MessageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC8396B204E815500D67B4F /* MessageCollectionViewCell.m */; };
+		DEC83972204E815500D67B4F /* MessageEventCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC8396C204E815500D67B4F /* MessageEventCollectionViewCell.m */; };
+		DEC83973204E815500D67B4F /* MessageSystemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC8396D204E815500D67B4F /* MessageSystemCollectionViewCell.m */; };
+		DEC83974204E815500D67B4F /* MessageSystemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC8396F204E815500D67B4F /* MessageSystemCollectionViewCell.xib */; };
+		DEC83975204E815500D67B4F /* MessageEventCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC83970204E815500D67B4F /* MessageEventCollectionViewCell.xib */; };
+		DEC8397D204E81AB00D67B4F /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC83977204E81AB00D67B4F /* Message.m */; };
+		DEC8397E204E81AB00D67B4F /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC83978204E81AB00D67B4F /* Topic.m */; };
+		DEC8397F204E81AB00D67B4F /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC8397B204E81AB00D67B4F /* DataCenter.m */; };
+		DEC83986204E828A00D67B4F /* NSDate+NVTimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC83984204E828A00D67B4F /* NSDate+NVTimeAgo.m */; };
+		DEC8398C204E913400D67B4F /* USMessageFullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC83988204E913300D67B4F /* USMessageFullViewController.m */; };
+		DEC8398D204E913400D67B4F /* USBaseMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC83989204E913300D67B4F /* USBaseMessageViewController.m */; };
+		DEC8398E204E913400D67B4F /* USBaseMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEC8398B204E913400D67B4F /* USBaseMessageViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEC83946204E7AC900D67B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC83922204E7AC900D67B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC83929204E7AC900D67B4F;
+			remoteInfo = talkMessage;
+		};
+		DEC83951204E7AC900D67B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEC83922204E7AC900D67B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEC83929204E7AC900D67B4F;
+			remoteInfo = talkMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0994B5204F98EC002159E8 /* TopicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicTableViewCell.xib; sourceTree = "<group>"; };
+		DE0994B6204F98EC002159E8 /* TopicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableViewCell.h; sourceTree = "<group>"; };
+		DE0994B7204F98EC002159E8 /* TopicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableViewCell.m; sourceTree = "<group>"; };
+		DE0994BA204F9A0D002159E8 /* USListTopicFullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USListTopicFullViewController.h; sourceTree = "<group>"; };
+		DE0994BB204F9A0E002159E8 /* USBaseListTopicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USBaseListTopicViewController.xib; sourceTree = "<group>"; };
+		DE0994BC204F9A0E002159E8 /* USBaseListTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USBaseListTopicViewController.m; sourceTree = "<group>"; };
+		DE0994BD204F9A0E002159E8 /* USListTopicFullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USListTopicFullViewController.m; sourceTree = "<group>"; };
+		DE0994BE204F9A0E002159E8 /* USBaseListTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USBaseListTopicViewController.h; sourceTree = "<group>"; };
+		DE0994C2204FC695002159E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEC8392A204E7AC900D67B4F /* talkMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = talkMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC8392D204E7AC900D67B4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEC8392E204E7AC900D67B4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEC83930204E7AC900D67B4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEC83931204E7AC900D67B4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEC83934204E7AC900D67B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEC83937204E7AC900D67B4F /* talkMessage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = talkMessage.xcdatamodel; sourceTree = "<group>"; };
+		DEC8393C204E7AC900D67B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEC8393E204E7AC900D67B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC8393F204E7AC900D67B4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEC83945204E7AC900D67B4F /* talkMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = talkMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC83949204E7AC900D67B4F /* talkMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = talkMessageTests.m; sourceTree = "<group>"; };
+		DEC8394B204E7AC900D67B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC83950204E7AC900D67B4F /* talkMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = talkMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC83954204E7AC900D67B4F /* talkMessageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = talkMessageUITests.m; sourceTree = "<group>"; };
+		DEC83956204E7AC900D67B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEC83969204E815500D67B4F /* MessageEventCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageEventCollectionViewCell.h; sourceTree = "<group>"; };
+		DEC8396A204E815500D67B4F /* MessageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCollectionViewCell.h; sourceTree = "<group>"; };
+		DEC8396B204E815500D67B4F /* MessageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCollectionViewCell.m; sourceTree = "<group>"; };
+		DEC8396C204E815500D67B4F /* MessageEventCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageEventCollectionViewCell.m; sourceTree = "<group>"; };
+		DEC8396D204E815500D67B4F /* MessageSystemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageSystemCollectionViewCell.m; sourceTree = "<group>"; };
+		DEC8396E204E815500D67B4F /* MessageSystemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageSystemCollectionViewCell.h; sourceTree = "<group>"; };
+		DEC8396F204E815500D67B4F /* MessageSystemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageSystemCollectionViewCell.xib; sourceTree = "<group>"; };
+		DEC83970204E815500D67B4F /* MessageEventCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageEventCollectionViewCell.xib; sourceTree = "<group>"; };
+		DEC83977204E81AB00D67B4F /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		DEC83978204E81AB00D67B4F /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
+		DEC83979204E81AB00D67B4F /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
+		DEC8397A204E81AB00D67B4F /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
+		DEC8397B204E81AB00D67B4F /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
+		DEC8397C204E81AB00D67B4F /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		DEC83981204E828A00D67B4F /* NSDate+NVTimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NVTimeAgo.h"; sourceTree = "<group>"; };
+		DEC83984204E828A00D67B4F /* NSDate+NVTimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NVTimeAgo.m"; sourceTree = "<group>"; };
+		DEC83987204E913300D67B4F /* USMessageFullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USMessageFullViewController.h; sourceTree = "<group>"; };
+		DEC83988204E913300D67B4F /* USMessageFullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USMessageFullViewController.m; sourceTree = "<group>"; };
+		DEC83989204E913300D67B4F /* USBaseMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USBaseMessageViewController.m; sourceTree = "<group>"; };
+		DEC8398A204E913400D67B4F /* USBaseMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USBaseMessageViewController.h; sourceTree = "<group>"; };
+		DEC8398B204E913400D67B4F /* USBaseMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = USBaseMessageViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEC83927204E7AC900D67B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC83942204E7AC900D67B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC8394D204E7AC900D67B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0994B3204F9861002159E8 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				DE0994BE204F9A0E002159E8 /* USBaseListTopicViewController.h */,
+				DE0994BC204F9A0E002159E8 /* USBaseListTopicViewController.m */,
+				DE0994BB204F9A0E002159E8 /* USBaseListTopicViewController.xib */,
+				DE0994BA204F9A0D002159E8 /* USListTopicFullViewController.h */,
+				DE0994BD204F9A0E002159E8 /* USListTopicFullViewController.m */,
+				DE0994B4204F98C0002159E8 /* cell */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+		DE0994B4204F98C0002159E8 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				DE0994B6204F98EC002159E8 /* TopicTableViewCell.h */,
+				DE0994B7204F98EC002159E8 /* TopicTableViewCell.m */,
+				DE0994B5204F98EC002159E8 /* TopicTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		DEC83921204E7AC900D67B4F = {
+			isa = PBXGroup;
+			children = (
+				DEC8392C204E7AC900D67B4F /* talkMessage */,
+				DEC83948204E7AC900D67B4F /* talkMessageTests */,
+				DEC83953204E7AC900D67B4F /* talkMessageUITests */,
+				DEC8392B204E7AC900D67B4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEC8392B204E7AC900D67B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEC8392A204E7AC900D67B4F /* talkMessage.app */,
+				DEC83945204E7AC900D67B4F /* talkMessageTests.xctest */,
+				DEC83950204E7AC900D67B4F /* talkMessageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEC8392C204E7AC900D67B4F /* talkMessage */ = {
+			isa = PBXGroup;
+			children = (
+				DE0994C2204FC695002159E8 /* Assets.xcassets */,
+				DEC83976204E819400D67B4F /* Data */,
+				DEC83980204E825600D67B4F /* Helper */,
+				DEC83962204E7FC300D67B4F /* Message */,
+				DE0994B3204F9861002159E8 /* Topic */,
+				DEC8392D204E7AC900D67B4F /* AppDelegate.h */,
+				DEC8392E204E7AC900D67B4F /* AppDelegate.m */,
+				DEC83930204E7AC900D67B4F /* ViewController.h */,
+				DEC83931204E7AC900D67B4F /* ViewController.m */,
+				DEC83933204E7AC900D67B4F /* Main.storyboard */,
+				DEC8393B204E7AC900D67B4F /* LaunchScreen.storyboard */,
+				DEC8393E204E7AC900D67B4F /* Info.plist */,
+				DEC8393F204E7AC900D67B4F /* main.m */,
+				DEC83936204E7AC900D67B4F /* talkMessage.xcdatamodeld */,
+			);
+			path = talkMessage;
+			sourceTree = "<group>";
+		};
+		DEC83948204E7AC900D67B4F /* talkMessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC83949204E7AC900D67B4F /* talkMessageTests.m */,
+				DEC8394B204E7AC900D67B4F /* Info.plist */,
+			);
+			path = talkMessageTests;
+			sourceTree = "<group>";
+		};
+		DEC83953204E7AC900D67B4F /* talkMessageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEC83954204E7AC900D67B4F /* talkMessageUITests.m */,
+				DEC83956204E7AC900D67B4F /* Info.plist */,
+			);
+			path = talkMessageUITests;
+			sourceTree = "<group>";
+		};
+		DEC83962204E7FC300D67B4F /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				DEC8398A204E913400D67B4F /* USBaseMessageViewController.h */,
+				DEC83989204E913300D67B4F /* USBaseMessageViewController.m */,
+				DEC8398B204E913400D67B4F /* USBaseMessageViewController.xib */,
+				DEC83987204E913300D67B4F /* USMessageFullViewController.h */,
+				DEC83988204E913300D67B4F /* USMessageFullViewController.m */,
+				DEC83968204E80ED00D67B4F /* Cell */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		DEC83968204E80ED00D67B4F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DEC8396A204E815500D67B4F /* MessageCollectionViewCell.h */,
+				DEC8396B204E815500D67B4F /* MessageCollectionViewCell.m */,
+				DEC83969204E815500D67B4F /* MessageEventCollectionViewCell.h */,
+				DEC8396C204E815500D67B4F /* MessageEventCollectionViewCell.m */,
+				DEC83970204E815500D67B4F /* MessageEventCollectionViewCell.xib */,
+				DEC8396E204E815500D67B4F /* MessageSystemCollectionViewCell.h */,
+				DEC8396D204E815500D67B4F /* MessageSystemCollectionViewCell.m */,
+				DEC8396F204E815500D67B4F /* MessageSystemCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DEC83976204E819400D67B4F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DEC8397A204E81AB00D67B4F /* DataCenter.h */,
+				DEC8397B204E81AB00D67B4F /* DataCenter.m */,
+				DEC8397C204E81AB00D67B4F /* Message.h */,
+				DEC83977204E81AB00D67B4F /* Message.m */,
+				DEC83979204E81AB00D67B4F /* Topic.h */,
+				DEC83978204E81AB00D67B4F /* Topic.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DEC83980204E825600D67B4F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DEC83981204E828A00D67B4F /* NSDate+NVTimeAgo.h */,
+				DEC83984204E828A00D67B4F /* NSDate+NVTimeAgo.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEC83929204E7AC900D67B4F /* talkMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC83959204E7AC900D67B4F /* Build configuration list for PBXNativeTarget "talkMessage" */;
+			buildPhases = (
+				DEC83926204E7AC900D67B4F /* Sources */,
+				DEC83927204E7AC900D67B4F /* Frameworks */,
+				DEC83928204E7AC900D67B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = talkMessage;
+			productName = talkMessage;
+			productReference = DEC8392A204E7AC900D67B4F /* talkMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEC83944204E7AC900D67B4F /* talkMessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC8395C204E7AC900D67B4F /* Build configuration list for PBXNativeTarget "talkMessageTests" */;
+			buildPhases = (
+				DEC83941204E7AC900D67B4F /* Sources */,
+				DEC83942204E7AC900D67B4F /* Frameworks */,
+				DEC83943204E7AC900D67B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC83947204E7AC900D67B4F /* PBXTargetDependency */,
+			);
+			name = talkMessageTests;
+			productName = talkMessageTests;
+			productReference = DEC83945204E7AC900D67B4F /* talkMessageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEC8394F204E7AC900D67B4F /* talkMessageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC8395F204E7AC900D67B4F /* Build configuration list for PBXNativeTarget "talkMessageUITests" */;
+			buildPhases = (
+				DEC8394C204E7AC900D67B4F /* Sources */,
+				DEC8394D204E7AC900D67B4F /* Frameworks */,
+				DEC8394E204E7AC900D67B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEC83952204E7AC900D67B4F /* PBXTargetDependency */,
+			);
+			name = talkMessageUITests;
+			productName = talkMessageUITests;
+			productReference = DEC83950204E7AC900D67B4F /* talkMessageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEC83922204E7AC900D67B4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "CPU11197-local";
+				TargetAttributes = {
+					DEC83929204E7AC900D67B4F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DEC83944204E7AC900D67B4F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEC83929204E7AC900D67B4F;
+					};
+					DEC8394F204E7AC900D67B4F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DEC83929204E7AC900D67B4F;
+					};
+				};
+			};
+			buildConfigurationList = DEC83925204E7AC900D67B4F /* Build configuration list for PBXProject "talkMessage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEC83921204E7AC900D67B4F;
+			productRefGroup = DEC8392B204E7AC900D67B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEC83929204E7AC900D67B4F /* talkMessage */,
+				DEC83944204E7AC900D67B4F /* talkMessageTests */,
+				DEC8394F204E7AC900D67B4F /* talkMessageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEC83928204E7AC900D67B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0994B8204F98ED002159E8 /* TopicTableViewCell.xib in Resources */,
+				DEC8393D204E7AC900D67B4F /* LaunchScreen.storyboard in Resources */,
+				DEC83935204E7AC900D67B4F /* Main.storyboard in Resources */,
+				DEC83975204E815500D67B4F /* MessageEventCollectionViewCell.xib in Resources */,
+				DE0994BF204F9A0E002159E8 /* USBaseListTopicViewController.xib in Resources */,
+				DEC83974204E815500D67B4F /* MessageSystemCollectionViewCell.xib in Resources */,
+				DE0994C3204FC695002159E8 /* Assets.xcassets in Resources */,
+				DEC8398E204E913400D67B4F /* USBaseMessageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC83943204E7AC900D67B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC8394E204E7AC900D67B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEC83926204E7AC900D67B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC8398C204E913400D67B4F /* USMessageFullViewController.m in Sources */,
+				DEC83986204E828A00D67B4F /* NSDate+NVTimeAgo.m in Sources */,
+				DEC83932204E7AC900D67B4F /* ViewController.m in Sources */,
+				DEC8398D204E913400D67B4F /* USBaseMessageViewController.m in Sources */,
+				DEC8392F204E7AC900D67B4F /* AppDelegate.m in Sources */,
+				DE0994B9204F98ED002159E8 /* TopicTableViewCell.m in Sources */,
+				DE0994C1204F9A0E002159E8 /* USListTopicFullViewController.m in Sources */,
+				DEC83971204E815500D67B4F /* MessageCollectionViewCell.m in Sources */,
+				DE0994C0204F9A0E002159E8 /* USBaseListTopicViewController.m in Sources */,
+				DEC8397F204E81AB00D67B4F /* DataCenter.m in Sources */,
+				DEC8397E204E81AB00D67B4F /* Topic.m in Sources */,
+				DEC83972204E815500D67B4F /* MessageEventCollectionViewCell.m in Sources */,
+				DEC83940204E7AC900D67B4F /* main.m in Sources */,
+				DEC83938204E7AC900D67B4F /* talkMessage.xcdatamodeld in Sources */,
+				DEC8397D204E81AB00D67B4F /* Message.m in Sources */,
+				DEC83973204E815500D67B4F /* MessageSystemCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC83941204E7AC900D67B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC8394A204E7AC900D67B4F /* talkMessageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC8394C204E7AC900D67B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC83955204E7AC900D67B4F /* talkMessageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEC83947204E7AC900D67B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC83929204E7AC900D67B4F /* talkMessage */;
+			targetProxy = DEC83946204E7AC900D67B4F /* PBXContainerItemProxy */;
+		};
+		DEC83952204E7AC900D67B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEC83929204E7AC900D67B4F /* talkMessage */;
+			targetProxy = DEC83951204E7AC900D67B4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEC83933204E7AC900D67B4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC83934204E7AC900D67B4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEC8393B204E7AC900D67B4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC8393C204E7AC900D67B4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEC83957204E7AC900D67B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEC83958204E7AC900D67B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEC8395A204E7AC900D67B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9Z4CKEBCU;
+				INFOPLIST_FILE = talkMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VNG.talkMessage.talkMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEC8395B204E7AC900D67B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9Z4CKEBCU;
+				INFOPLIST_FILE = talkMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VNG.talkMessage.talkMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEC8395D204E7AC900D67B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9Z4CKEBCU;
+				INFOPLIST_FILE = talkMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VNG.talkMessage.talkMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/talkMessage.app/talkMessage";
+			};
+			name = Debug;
+		};
+		DEC8395E204E7AC900D67B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9Z4CKEBCU;
+				INFOPLIST_FILE = talkMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VNG.talkMessage.talkMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/talkMessage.app/talkMessage";
+			};
+			name = Release;
+		};
+		DEC83960204E7AC900D67B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9Z4CKEBCU;
+				INFOPLIST_FILE = talkMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VNG.talkMessage.talkMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = talkMessage;
+			};
+			name = Debug;
+		};
+		DEC83961204E7AC900D67B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S9Z4CKEBCU;
+				INFOPLIST_FILE = talkMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VNG.talkMessage.talkMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = talkMessage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEC83925204E7AC900D67B4F /* Build configuration list for PBXProject "talkMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC83957204E7AC900D67B4F /* Debug */,
+				DEC83958204E7AC900D67B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC83959204E7AC900D67B4F /* Build configuration list for PBXNativeTarget "talkMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC8395A204E7AC900D67B4F /* Debug */,
+				DEC8395B204E7AC900D67B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC8395C204E7AC900D67B4F /* Build configuration list for PBXNativeTarget "talkMessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC8395D204E7AC900D67B4F /* Debug */,
+				DEC8395E204E7AC900D67B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC8395F204E7AC900D67B4F /* Build configuration list for PBXNativeTarget "talkMessageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC83960204E7AC900D67B4F /* Debug */,
+				DEC83961204E7AC900D67B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEC83936204E7AC900D67B4F /* talkMessage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEC83937204E7AC900D67B4F /* talkMessage.xcdatamodel */,
+			);
+			currentVersion = DEC83937204E7AC900D67B4F /* talkMessage.xcdatamodel */;
+			path = talkMessage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEC83922204E7AC900D67B4F /* Project object */;
+}
