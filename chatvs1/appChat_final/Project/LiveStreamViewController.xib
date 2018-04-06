@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LiveStreamViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="Bl8-Pr-6MW">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="ctW-Vq-6OR">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSD-fB-rFW">
+                            <rect key="frame" x="311" y="0.0" width="64" height="64"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="64" id="lck-JA-scO"/>
+                                <constraint firstAttribute="width" constant="64" id="mPk-SH-RdV"/>
+                            </constraints>
+                            <connections>
+                                <action selector="backPressed:" destination="-1" eventType="touchUpInside" id="LHA-LH-3FJ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JMQ-GU-Mfd">
+                            <rect key="frame" x="8" y="609" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="YwQ-lh-9D0"/>
+                                <constraint firstAttribute="height" constant="50" id="zcN-d1-ydq"/>
+                            </constraints>
+                            <connections>
+                                <action selector="gotoMessenger_button:" destination="-1" eventType="touchUpInside" id="8gI-ma-lex"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="ctW-Vq-6OR" firstAttribute="top" secondItem="Bl8-Pr-6MW" secondAttribute="top" id="C2G-6e-Jih"/>
+                        <constraint firstAttribute="trailing" secondItem="ctW-Vq-6OR" secondAttribute="trailing" id="UmQ-Ng-vQt"/>
+                        <constraint firstItem="JMQ-GU-Mfd" firstAttribute="leading" secondItem="Bl8-Pr-6MW" secondAttribute="leading" constant="8" id="W9E-4q-SOm"/>
+                        <constraint firstItem="ctW-Vq-6OR" firstAttribute="leading" secondItem="Bl8-Pr-6MW" secondAttribute="leading" id="kUK-MH-4GE"/>
+                        <constraint firstAttribute="bottom" secondItem="JMQ-GU-Mfd" secondAttribute="bottom" constant="8" id="otg-tf-1pX"/>
+                        <constraint firstAttribute="bottom" secondItem="ctW-Vq-6OR" secondAttribute="bottom" id="r3o-r5-Gaj"/>
+                        <constraint firstItem="RSD-fB-rFW" firstAttribute="top" secondItem="Bl8-Pr-6MW" secondAttribute="top" id="v2j-ls-9Zp"/>
+                        <constraint firstAttribute="trailing" secondItem="RSD-fB-rFW" secondAttribute="trailing" id="ytc-9h-dTa"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Bl8-Pr-6MW" secondAttribute="trailing" id="1gF-Fe-6lT"/>
+                <constraint firstItem="Bl8-Pr-6MW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KLe-xJ-Si7"/>
+                <constraint firstAttribute="bottom" secondItem="Bl8-Pr-6MW" secondAttribute="bottom" id="NGf-cI-b9x"/>
+                <constraint firstItem="Bl8-Pr-6MW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rlR-Dw-wPe"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bk.png" width="750" height="1334"/>
+    </resources>
+</document>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendTableViewCell" rowHeight="60" id="KGk-i7-Jjw" customClass="FriendTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TG3-i2-bgj">
+                        <rect key="frame" x="55" y="5" width="180" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="2CL-H9-cPU"/>
+                            <constraint firstAttribute="width" constant="180" id="s5o-xG-gcy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rvO-c2-Mxi">
+                        <rect key="frame" x="5" y="5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="J5I-XR-YpA"/>
+                            <constraint firstAttribute="width" constant="40" id="NCP-lY-dKD"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4xu-yN-Jyk">
+                        <rect key="frame" x="55" y="30" width="245" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="o0d-mQ-MLF"/>
+                            <constraint firstAttribute="width" constant="245" id="wKv-XN-gLo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ft9-zB-E40">
+                        <rect key="frame" x="215" y="5" width="100" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="tho-xE-Hvr"/>
+                            <constraint firstAttribute="height" constant="20" id="xcc-Hg-YSS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noti.png" translatesAutoresizingMaskIntoConstraints="NO" id="wXB-Ks-gwl">
+                        <rect key="frame" x="45" y="8" width="7" height="7"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="7" id="4Wo-rD-YBR"/>
+                            <constraint firstAttribute="width" constant="7" id="sF6-TB-ehs"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ft9-zB-E40" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="7lY-2g-Wjj"/>
+                    <constraint firstItem="4xu-yN-Jyk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="55" id="CZl-tC-EB9"/>
+                    <constraint firstItem="rvO-c2-Mxi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Dcm-Qf-k0P"/>
+                    <constraint firstItem="TG3-i2-bgj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="S7p-AV-2dj"/>
+                    <constraint firstItem="wXB-Ks-gwl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="l6H-oO-EtT"/>
+                    <constraint firstAttribute="trailing" secondItem="ft9-zB-E40" secondAttribute="trailing" constant="5" id="lrd-ho-dPb"/>
+                    <constraint firstItem="4xu-yN-Jyk" firstAttribute="top" secondItem="ft9-zB-E40" secondAttribute="bottom" constant="5" id="prX-IH-0EY"/>
+                    <constraint firstItem="TG3-i2-bgj" firstAttribute="leading" secondItem="rvO-c2-Mxi" secondAttribute="trailing" constant="10" id="r6c-vi-coH"/>
+                    <constraint firstItem="wXB-Ks-gwl" firstAttribute="leading" secondItem="rvO-c2-Mxi" secondAttribute="trailing" id="sTL-jq-3Hq"/>
+                    <constraint firstItem="rvO-c2-Mxi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="ycf-4O-HZ4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatar_imageview" destination="rvO-c2-Mxi" id="uLd-Px-eD3"/>
+                <outlet property="notification_imageview" destination="wXB-Ks-gwl" id="BZ0-PD-gkd"/>
+                <outlet property="subtitle_label" destination="4xu-yN-Jyk" id="Eha-i1-HBL"/>
+                <outlet property="time_label" destination="ft9-zB-E40" id="bZv-Uv-TRd"/>
+                <outlet property="title" destination="TG3-i2-bgj" id="BXe-NR-iij"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="68"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="avatar2.jpg" width="500" height="500"/>
+        <image name="noti.png" width="240" height="240"/>
+    </resources>
+</document>
